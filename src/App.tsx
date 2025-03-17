@@ -703,14 +703,14 @@ function HomePage() {
               <div className="text-center py-8">
                 <div className="bg-red-50 text-red-700 p-4 rounded-lg inline-block text-sm">
                   <p>{repoError}</p>
-                  {!process.env.REACT_APP_GITHUB_TOKEN && (
+                  {!import.meta.env.VITE_GITHUB_TOKEN && (
                     <div className="mt-4 p-4 bg-gray-100 rounded-lg max-w-lg mx-auto text-left">
                       <p className="text-sm text-gray-700 mb-2">
                         <strong>Note:</strong> To display your pinned repositories, you need to:
                       </p>
                       <ol className="text-sm text-gray-700 list-decimal pl-5 space-y-1">
                         <li>Create a GitHub Personal Access Token with <code className="bg-gray-200 px-1 rounded">public_repo</code> scope</li>
-                        <li>Add it to your <code className="bg-gray-200 px-1 rounded">.env</code> file as <code className="bg-gray-200 px-1 rounded">REACT_APP_GITHUB_TOKEN</code></li>
+                        <li>Add it to your <code className="bg-gray-200 px-1 rounded">.env</code> file as <code className="bg-gray-200 px-1 rounded">VITE_GITHUB_TOKEN</code></li>
                         <li>Restart your development server</li>
                       </ol>
                     </div>

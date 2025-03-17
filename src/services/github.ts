@@ -28,7 +28,7 @@ export async function fetchGitHubRepos(username: string): Promise<GithubRepo[]> 
     `;
 
     // Get token from environment variables
-    const token = process.env.REACT_APP_GITHUB_TOKEN || '';
+    const token = import.meta.env.VITE_GITHUB_TOKEN || '';
 
     // If no token is provided, return hardcoded data
     if (!token || token === 'your_github_token_here') {
