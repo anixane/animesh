@@ -35,7 +35,7 @@ export const projects: Project[] = [
     role: 'Software Engineer',
     duration: 'Sep, 2018 - Feb, 2020',
     impact: '35% reduction in cloud costs, 99.99% system reliability',
-    image: '/logos/maq-software.svg',
+    image: 'logos/maq-software.svg',
     company: 'MAQ Software (Microsoft External)'
   }
 ];
@@ -82,7 +82,7 @@ export const experiences: Experience[] = [
     role: 'Software Engineer II',
     duration: '2018 - 2021',
     description: 'Developed cloud infrastructure and distributed systems',
-    logo: '/logos/maq-software.svg',
+    logo: 'logos/maq-software.svg',
     longDescription: 'Developed scalable cloud infrastructure and distributed systems for MAQ Software. Led initiatives in performance optimization and system reliability. Contributed to core services used by enterprise customers worldwide.',
     location: 'Redmond, WA',
     teamSize: '10+ engineers',

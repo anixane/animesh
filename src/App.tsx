@@ -335,7 +335,7 @@ function HomePage() {
           <div className="mb-10">
             <div className="flex flex-col md:flex-row items-center justify-center mb-8">
               <img 
-                src="public/images/image.png"
+                src="images/image.png"
                 alt="Animesh Kumar"
                 className="w-40 h-40 rounded-full border-4 border-white shadow-xl mb-6 md:mb-0 md:mr-10 backlit-profile"
               />
