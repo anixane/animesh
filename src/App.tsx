@@ -349,7 +349,7 @@ function HomePage() {
               </div>
             </div>
             
-            <div className="max-w-2xl mx-auto mb-8 text-lg text-black leading-relaxed animate-slide-up-delay-2">
+            <div className="max-w-2xl mx-auto mb-8 text-lg text-black leading-relaxed animate-slide-up-delay-2 bg-white/50 backdrop-blur-sm p-5 rounded-lg">
               <p>AI/ML specialist with <span className="highlight-bg">6+ years of experience building innovative solutions</span> at Big Tech organizations. I'm passionate about <span className="highlight-rect">leveraging artificial intelligence</span> to solve <span className="highlight-bg">complex problems</span> and enhance human creativity. My expertise spans from software development to design. Together, we <span className="highlight-underline">can create remarkable experiences</span> that <span className="highlight-rect">transform how people interact with technology.</span></p>
             </div>
             
@@ -363,7 +363,7 @@ function HomePage() {
             
             <div className="flex justify-center mb-10 animate-slide-up-delay-3">
               <a 
-                href="/resume.pdf" 
+                href="resume.pdf" 
                 download 
                 className="flex items-center px-6 py-3 bg-black text-cyan-400 rounded-lg hover:bg-black/90 transition-all duration-300 font-medium backlit-button group"
               >
